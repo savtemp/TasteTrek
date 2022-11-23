@@ -1,0 +1,60 @@
+
+{
+  "folders": [
+    {
+      "path": "TasteTrek.client",
+      "name": "client"
+    },
+    {
+      "path": "TasteTrek",
+      "name": "server"
+    }
+  ],
+  "settings": {
+    "editor.suggestSelection": "first",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "files.exclude": {
+      "**/.nyc_*": true,
+      "**/coverage": true,
+      "**/node_modules": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#8477a9",
+      "activityBar.background": "#8477a9",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#62473e",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "commandCenter.border": "#e7e7e799",
+      "sash.hoverBorder": "#8477a9",
+      "statusBar.background": "#6a5c91",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#8477a9",
+      "statusBarItem.remoteBackground": "#6a5c91",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#6a5c91",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#6a5c9199",
+      "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#6a5c91"
+  }
+}
