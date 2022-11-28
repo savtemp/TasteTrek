@@ -7,6 +7,7 @@ export class WinesController extends BaseController {
     this.router
       .get('', this.getWines)
       .get('/:wineId', this.getWineById)
+      // add in Authorization below so that you can only create, edit, and delete once you are signed into an account
       // .use('')
       .post('', this.createWine)
       .put('/:wineId', this.editWine)
